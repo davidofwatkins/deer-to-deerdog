@@ -1,0 +1,1 @@
+A simple Chrome extension to replace all instances of "deer" with "deerdog."
