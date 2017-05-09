@@ -12,7 +12,7 @@ for (var i = 0; i < elements.length; i++) {
         if (node.nodeType !== 3) { continue; }
 
         var text = node.nodeValue;
-        var replacedText = text.replace(/(deer)/gi, '$1dog');
+        var replacedText = text.replace(/(\bdeer\b)/gi, '$1dog');
 
         if (replacedText === text) { continue; }
         
