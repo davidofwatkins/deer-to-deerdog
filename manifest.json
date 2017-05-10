@@ -1,8 +1,13 @@
 {
 "manifest_version": 2,
-    "name": "Deer to Deerdogs",
+    "name": "Deer to Deerdog",
     "description": "Replaces all instances of \"deer\" to \"deerdog.\"",
-    "version": "1.0",
+    "version": "1.0.0",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
     "content_scripts": [
         {
             "matches": [
